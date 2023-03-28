@@ -1,0 +1,39 @@
+form {
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form h2 {
+    margin-bottom: 24px;
+}
+
+.form button {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 8px 8px 8px 8px ;
+    
+    font-weight: bold;
+    font-size: 20px;
+
+    width: 30vw;
+    height: 50px;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .form button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form button {
+        width: 40vw;
+    }
+}

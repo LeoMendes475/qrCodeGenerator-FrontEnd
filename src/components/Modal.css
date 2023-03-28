@@ -1,0 +1,14 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameTitle {
+    padding-bottom: 30px;
+}
+
+.subTitle {
+    padding-bottom: 20px;
+}

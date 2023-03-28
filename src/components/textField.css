@@ -1,0 +1,42 @@
+.textField {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.textField h3 {
+    background-color: #e8ecef;
+    color: #83878b;
+    border: 1px solid #dcdfe0;
+    border-radius: 8px 0 0 8px ;
+
+    width: 200px;
+    height: 50px;
+    padding: 14px 0;
+}
+
+.textField input {
+    border: 1px solid #dcdfe0;
+    border-radius: 0 8px 8px 0;
+
+    width: 80vw;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+.textField input textfield {
+  font-weight: 500;
+
+}
+
+@media screen and (max-width: 425px) {
+    .textField h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .textField input {
+        width: 50vw;
+    }
+}
