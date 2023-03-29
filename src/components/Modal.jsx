@@ -23,7 +23,7 @@ const customStyles = {
   function Index({ isOpen, qrcode }) {
     const [modalIsopen, setIsopen] = useState(isOpen);
     const [text, setText] = useState(qrcode);
-    console.log(qrcode + "teste");
+    console.log(qrcode + " teste Modal");
     function closeModal() {
       setIsopen(false);
     }
