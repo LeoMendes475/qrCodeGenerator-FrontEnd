@@ -38,7 +38,7 @@ const customStyles = {
         >
             <h3 className="nameTitle">{qrcode}</h3>
             <span className="subTitle">Scan me</span>
-            <MyQRCode text={`http://localhost:3333/${qrcode}`} />
+            <MyQRCode text={`https://vast-red-pig-yoke.cyclic.app/${qrcode}`} />
         </Modal >
       </div >
     )
